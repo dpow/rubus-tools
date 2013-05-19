@@ -1,11 +1,33 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+############################################################################
+# DO NOT add binary files (.exe) or filesystem images (.img) to this file! #
+############################################################################
 
-# Other files and folders
-.settings/
+# Packages #
+############
+*.7z
+*.bz2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.xz
+*.zip
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
