@@ -41,7 +41,7 @@ Execute it to see if it works:
     
 ### Dependencies
 
-This toolchain was compiled using `crosstools-ng` to build the following packages:
+This toolchain was compiled using `crosstool-ng_1.18.0` to build the following packages:
 * binutils-2.19.1a
 * cloog-ppl-0.15.11
 * dmalloc-5.5.2
