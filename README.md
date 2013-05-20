@@ -60,7 +60,7 @@ This toolchain was compiled using `crosstools-ng` to build the following package
 
 There *is* an official toolchain for the RaspberryPi already available from https://github.com/raspberrypi/tools, so why bother?
 
-Well, I'm teaching myself how to build embedded Linux systems, and since I already have a RaspberryPi to practice on, this seemed like a good place to coordinate the progress.
+Well, I'm teaching myself how to build embedded Linux systems, and since I already have a RaspberryPi to practice on, this seemed like a good place to start.
 
 ### License?
 
