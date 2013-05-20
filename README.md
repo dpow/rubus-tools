@@ -64,7 +64,7 @@ Well, I'm teaching myself how to build embedded Linux systems, and since I alrea
 
 ### License?
 
-NONE. I make no claim of ownership or copyright to anything contained herein. All Programs and Software used to produce this Toolchain are Copyrighted and Licensed by their respective Owners. The source code for all the Software listed above can be obtained freely from their respective Websites.
+NONE. I make no claim of ownership or copyright to anything contained herein. All Programs and Software used to produce this Toolchain are Copyrighted and Licensed by their respective Owners. The source code for all the Software listed above can be obtained freely from their respective Websites. Do what you want. Within all those Licenses, of course.
 
 ### Anything else?
 
