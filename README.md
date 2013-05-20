@@ -49,6 +49,7 @@ This toolchain was compiled using `crosstools-ng` to build the following package
 * glibc-ports-2.9
 * gmp-4.3.2
 * libelf-0.8.13
+* linux-3.2.37
 * ltrace-0.5.3
 * mpc-0.9
 * mpfr-2.4.2
