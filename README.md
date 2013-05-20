@@ -3,6 +3,10 @@ rubus-tools
 
 Toolchain for cross-compiling for RaspberryPi target (ARM) from x86_64 Linux hosts and x86_64 Cygwin hosts.
 
+### Status
+
+The Linux-host toolchain works on my machine. The Cygwin toolchain is in progress.
+
 ### How To Use It
 
 This will take a while:
