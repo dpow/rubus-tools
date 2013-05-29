@@ -5,7 +5,7 @@ Toolchain for cross-compiling for RaspberryPi target (ARM) from x86_64 Linux hos
 
 ### Status
 
-The Linux-host toolchain works on my machine. The Cygwin toolchain is in progress.
+The Linux-host toolchains targeting ARM and Mingw both work on my machine. The Windows-host toolchain is in progress.
 
 ### How To Use It
 
@@ -26,16 +26,15 @@ Make sure it works on your system:
 
 Compile the "Hello, world!" program:
 
-    $ cd test/
     $ arm-unknown-linux-gnueabi-gcc -o test test.c
     
 Copy it to your Raspberry Pi:
 
-    $ scp ~/rubus-tools/test/test me@othercomputer:/home/me/test
+    $ scp ~/rubus-tools/test me@raspberrypi:/home/me/test
 
 Execute it to see if it works:
 
-    $ ssh me@othercomputer
+    $ ssh me@raspberrypi
     $ ./test
     Hello, world!
     
