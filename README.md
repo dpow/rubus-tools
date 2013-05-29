@@ -1,7 +1,7 @@
 rubus-tools
 ===========
 
-Toolchain for cross-compiling for RaspberryPi target (ARM) from x86_64 Linux hosts and x86_64 Cygwin hosts.
+Toolchain for cross-compiling for RaspberryPi target (ARM) from x86_64 Linux hosts and x86_64 Windows hosts (hopefully).
 
 ### Status
 
@@ -41,7 +41,7 @@ Execute it to see if it works:
     
 ### Dependencies
 
-This toolchain was compiled using `crosstool-ng_1.18.0` to build the following packages:
+The `arm-unknown-linux-gnueabi` toolchain for x86-64 Linux hosts was compiled using `crosstool-ng_1.18.0` to build the following packages (will include `autoconf`, `automake`, `autotools`, `gcj`, `gdb`, `m4`, and `make` soon):
 * binutils-2.19.1a
 * cloog-ppl-0.15.11
 * dmalloc-5.5.2
@@ -59,6 +59,24 @@ This toolchain was compiled using `crosstool-ng_1.18.0` to build the following p
 * mpfr-2.4.2
 * ncurses-5.9
 * strace-4.5.19
+
+The `x86_64-unknown-mingw32` toolchain for x86-64 Linux hosts was compiled using using `crosstool-ng_1.18.0` to build the following packages:
+* autoconf-2.65
+* automake-1.11.1
+* binutils-2.21.1a
+* cloog-ppl-0.15.10
+* ecj-latest (version uncertain)
+* gcc-4.5.2
+* gdb-7.4.1
+* gmp-4.3.2
+* libelf-0.8.13
+* libtool-2.2.6b
+* m4-1.4.13
+* make-3.81
+* mingw-w64-v2.0.7
+* mpc-0.9
+* mpfr-2.4.2
+* ppl-0.10.2
 
 ### Why?
 
