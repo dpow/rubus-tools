@@ -66,7 +66,7 @@ The `arm-rpi-linux-gnueabi` toolchain for x86-64 Linux hosts was compiled using 
 * ppl-0.11.2
 * strace-4.5.19
 
-The `x86_64-unknown-mingw32` toolchain for x86-64 Linux hosts was compiled using using `crosstool-ng_1.18.0` to build the following packages:
+The `x86_64-w64-mingw32` toolchain for x86-64 Linux hosts was compiled using using `crosstool-ng_1.18.0` to build the following packages:
 * autoconf-2.65
 * automake-1.11.1
 * binutils-2.21.1a
