@@ -1,0 +1,10 @@
+prefix=/home/mithras/Documents/hosts/arm-rpi-linux-gnueabi_x86-64-linux-host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgcj
+Description: libgcj
+Version: 4.7.3
+Libs: -L${libdir} -lgcj
+Cflags: -I${includedir}
